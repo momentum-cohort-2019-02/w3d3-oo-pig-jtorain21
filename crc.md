@@ -1,7 +1,7 @@
 Classes:
 
 Game
-Dice
+Die
 Player
 Computer
 
@@ -15,14 +15,14 @@ Game Class:
         5. Ask user if they want to play again
 
     Collaborators - 
-        1. Dice
+        1. Die
         2. Player
         3. Computer
 
-Dice Class:
+Die Class:
 
     Responsibilities -
-        1. Roll dice (Give each player random number between 1-6)
+        1. Roll die (Give each player random number between 1-6)
 
     Collaborators - 
         1. Game
@@ -38,7 +38,7 @@ Player Class:
         1. Game
 
 Computer:
-
+ 
     Responsibilities - 
         1. Hold until 20
         2. Always roll after 20
